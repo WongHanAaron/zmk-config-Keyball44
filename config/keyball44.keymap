@@ -96,9 +96,9 @@
             label = "MOUSE";
             bindings = <
 &trans  &trans          &trans          &trans        &trans     &trans              &trans         &trans     &trans    &trans     &trans     &trans
-&trans  &trans          &trans          &trans        &trans     &trans              &trans         &mkp LCLK  &mkp MCLK &mkp RCLK  &none      &trans
+&trans  &trans          &trans          &trans        &trans     &trans              &trans         &mkp LCLK  &mkp MCLK &mkp RCLK  &trans      &trans
 &trans  &trans          &trans          &trans        &trans     &trans              &trans         &trans     &trans     &trans    &trans     &trans
-&trans  &trans          &trans          &trans        &trans                 &trans  &trans                                                    j&trans
+&trans  &trans          &trans          &trans        &trans                 &trans  &trans                                                    &trans
             >;
         };
 
