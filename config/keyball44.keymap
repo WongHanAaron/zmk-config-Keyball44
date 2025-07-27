@@ -13,7 +13,7 @@
 #include <dt-bindings/zmk/mouse.h>
 
 &lt {
-    tapping-term-ms = <150>;
+    tapping-term-ms = <50>;
     flavor = "balanced";
     quick-tap-ms = <100>;
 };
