@@ -13,9 +13,9 @@
 #include <dt-bindings/zmk/mouse.h>
 
 &lt {
-    tapping-term-ms = <50>;
+    tapping-term-ms = <100>;
     flavor = "balanced";
-    quick-tap-ms = <100>;
+    quick-tap-ms = <75>;
 };
 
 &mt {
