@@ -42,7 +42,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: SYM}
   - {t: '$$mdi:keyboard-space$$', h: NUM}
   - {t: '$$mdi:keyboard-tab$$', h: SCROLL}
-  - {t: '$$mdi:keyboard-space$$', h: SNIPE}
+  - {t: '$$mdi:backspace$$', h: SNIPE}
   - {t: '$$mdi:keyboard-return$$', h: MOUSE}
   - $$mdi:backspace-reverse-outline$$
   NUM:
