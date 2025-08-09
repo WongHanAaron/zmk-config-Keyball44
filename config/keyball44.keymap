@@ -26,7 +26,7 @@
 };
 
 &sl {
-    release-after-ms = <2000>;
+    release-after-ms = <2500>;
 };
 
 &caps_word { continue-list = <UNDERSCORE MINUS>; };
@@ -117,7 +117,7 @@
             label = "MOUSE";
             bindings = <
 &trans  &trans          &trans          &trans        &trans     &trans              &trans         &trans     &trans    &trans     &trans     &trans
-&trans  &trans          &trans          &trans        &trans     &trans              &trans         &mkpm LCLK  &mkp MCLK &mkpm RCLK  &to 0     &trans
+&trans  &trans          &trans          &trans        &trans     &trans              &trans         &mkpm LCLK  &mkpm MCLK &mkpm RCLK  &to 0     &trans
 &trans  &trans          &trans          &trans        &trans     &trans              &trans         &trans     &trans     &trans    &trans     &trans
 &trans  &trans          &trans          &trans        &trans                 &trans  &trans                                                    &trans
             >;
