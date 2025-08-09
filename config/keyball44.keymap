@@ -131,7 +131,7 @@
 &trans  &trans          &trans          &trans        &trans     &trans              &trans         &trans     &trans    &trans     &trans     &trans
 &trans  &trans          &trans          &trans        &trans     &trans              &trans         &mkpm LCLK  &mkpm MCLK &mkpm RCLK  &to 0     &trans
 &trans  &trans          &trans          &trans        &trans     &trans              &trans         &trans     &trans     &trans    &trans     &trans
-&trans  &trans          &trans          &trans        &lj 5                          &trans  &trans                                                    &trans
+&trans  &trans          &lj 2           &lj 1         &lj 5                          &lj 6  &trans                                                    &trans
             >;
         };
 
@@ -161,7 +161,7 @@
 &trans  &trans          &trans          &trans        &trans     &trans              &trans         &trans     &trans    &trans     &trans     &trans
 &trans  &trans          &trans          &trans        &trans     &trans              &trans         &mkpm LCLK  &mkpm MCLK &mkpm RCLK  &to 0    &trans
 &trans  &trans          &trans          &trans        &trans     &trans              &trans         &trans     &trans     &trans    &trans     &trans
-&trans  &trans          &trans          &trans        &lj 5                          &trans  &trans                                                    &trans
+&trans  &trans          &lj 2      	    &lj 1         &lj 5                          &lj 6  &trans                                                    &trans
             >;
         };
     };
