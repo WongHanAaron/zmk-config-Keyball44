@@ -67,7 +67,7 @@
 
         sticky_layer {
             compatible = "zmk,behavior-sticky-layer";
-            bindings = <&mo>; # Use momentary layer behavior for transitions
+            bindings = <&mo>;
             release-after-ms = <2000>;
         };
     };
