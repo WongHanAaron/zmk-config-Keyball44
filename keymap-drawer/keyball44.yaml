@@ -219,10 +219,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&lj 2'
+  - '&lj 1'
   - '&lj 5'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&lj 6'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   SCROLL:
@@ -354,9 +354,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&lj 2'
+  - '&lj 1'
   - '&lj 5'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&lj 6'
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
