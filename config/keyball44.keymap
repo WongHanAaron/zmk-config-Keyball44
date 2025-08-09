@@ -122,7 +122,7 @@
 &trans  &trans          &trans          &trans        &lt 5 TAB                      &trans  &trans                                                    &trans
             >;
         };
-;
+
         scroll_layer {
             label = "SCROLL";
             bindings = <
