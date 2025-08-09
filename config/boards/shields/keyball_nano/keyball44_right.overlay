@@ -68,7 +68,7 @@
     min-factor = <200>;          // The bottom multiplier on lowest speed
     max-factor = <10000>;         // The top peak multiplier on speed based on the movement speed of the ball
     speed-threshold = <100>;     // The movement speed where the curve will start changing
-    speed-max = <2000>;          // The movement speed where the device would reach the top of the max-factor
+    speed-max = <1500>;          // The movement speed where the device would reach the top of the max-factor
     acceleration-exponent = <2>;  // Quadratic acceleration curve
 };
 
