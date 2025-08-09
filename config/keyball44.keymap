@@ -26,7 +26,7 @@
 };
 
 &sl {
-    release-after-ms = <2500>;
+    release-after-ms = <2000>;
 };
 
 &caps_word { continue-list = <UNDERSCORE MINUS>; };
@@ -119,15 +119,15 @@
 &trans  &trans          &trans          &trans        &trans     &trans              &trans         &trans     &trans    &trans     &trans     &trans
 &trans  &trans          &trans          &trans        &trans     &trans              &trans         &mkpm LCLK  &mkpm MCLK &mkpm RCLK  &to 0     &trans
 &trans  &trans          &trans          &trans        &trans     &trans              &trans         &trans     &trans     &trans    &trans     &trans
-&trans  &trans          &trans          &trans        &to 5                          &trans  &trans                                                    &trans
+&trans  &trans          &trans          &trans        &lt 5 TAB                      &trans  &trans                                                    &trans
             >;
         };
-
+;;
         scroll_layer {
             label = "SCROLL";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &to 0   &trans
 &trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans              &trans  &trans                                  &trans
             >;
@@ -149,7 +149,7 @@
 &trans  &trans          &trans          &trans        &trans     &trans              &trans         &trans     &trans    &trans     &trans     &trans
 &trans  &trans          &trans          &trans        &trans     &trans              &trans         &mkpm LCLK  &mkpm MCLK &mkpm RCLK  &to 0    &trans
 &trans  &trans          &trans          &trans        &trans     &trans              &trans         &trans     &trans     &trans    &trans     &trans
-&trans  &trans          &trans          &trans        &to 5                          &trans  &trans                                                    &trans
+&trans  &trans          &trans          &trans        &lt 5 TAB                      &trans  &trans                                                    &trans
             >;
         };
     };
