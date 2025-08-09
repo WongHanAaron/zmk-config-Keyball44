@@ -201,7 +201,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkpm LCLK'
-  - $$mdi:mouse-scroll-wheel$$
+  - '&mkpm MCLK'
   - '&mkpm RCLK'
   - {t: QWRT, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
