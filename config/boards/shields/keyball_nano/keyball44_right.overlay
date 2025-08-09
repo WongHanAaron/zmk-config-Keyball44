@@ -66,10 +66,10 @@
     input-type = <INPUT_EV_REL>;  // For relative input devices
     track-remainders;             // Accumulate fractional movements
     min-factor = <300>;          // The bottom multiplier on lowest speed
-    max-factor = <5000>;         // The top peak multiplier on speed based on the movement speed of the ball
+    max-factor = <10000>;         // The top peak multiplier on speed based on the movement speed of the ball
     speed-threshold = <100>;     // The movement speed where the curve will start changing
-    speed-max = <3000>;          // The movement speed where the device would reach the top of the max-factor
-    acceleration-exponent = <3>;  // Quadratic acceleration curve
+    speed-max = <2000>;          // The movement speed where the device would reach the top of the max-factor
+    acceleration-exponent = <2>;  // Quadratic acceleration curve
 };
 
 / {
