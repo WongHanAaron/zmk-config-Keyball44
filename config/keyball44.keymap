@@ -68,6 +68,7 @@
         sl_mouse_layer: sl_mouse_layer {
             compatible = "zmk,behavior-sticky-layer";
             label = "SMOUSE";
+            #binding-cells = <1>;
             bindings = <&mo MOUSE2>;
             release-after-ms = <2000>;
         };
