@@ -65,7 +65,7 @@
             label = "SMOUSE"
             bindings = <&mo MOUSE2>;
             release-after-ms = <2000>;
-        }
+        };
     };
 
     keymap {
