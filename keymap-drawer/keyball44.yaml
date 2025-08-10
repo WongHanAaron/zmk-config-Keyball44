@@ -219,8 +219,8 @@ layers:
   - '&kpr RIGHT_SHIFT'
   - '&kpr LGUI'
   - '&kpr LALT'
-  - '&kpr SPACE'
-  - '&kpr SPACE'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - '&lj 5'
   - '&lj 6'
   - '&kpr ENTER'
@@ -354,8 +354,8 @@ layers:
   - '&kpr RIGHT_SHIFT'
   - '&kpr LGUI'
   - '&kpr LALT'
-  - '&kpr SPACE'
-  - '&kpr SPACE'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - '&lj 5'
   - '&lj 6'
   - {t: '&kpr ENTER', type: held}
