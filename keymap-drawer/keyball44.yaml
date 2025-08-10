@@ -226,50 +226,50 @@ layers:
   - '&kpr ENTER'
   - '&kpr DELETE'
   SCROLL:
-  - '&kpr'
-  - '&kpr'
-  - '&kpr'
-  - '&kpr'
-  - '&kpr'
-  - '&kpr'
-  - '&kpr'
-  - '&kpr'
-  - '&kpr'
-  - '&kpr'
-  - '&kpr'
-  - '&kpr'
-  - '&kpr'
-  - '&kpr'
-  - '&kpr'
-  - '&kpr'
-  - '&kpr'
-  - '&kpr'
-  - '&kpr'
-  - '&kpr'
-  - '&kpr'
-  - '&kpr'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: QWRT, h: toggle}
-  - '&kpr'
-  - '&kpr'
-  - '&kpr'
-  - '&kpr'
-  - '&kpr'
-  - '&kpr'
-  - '&kpr'
-  - '&kpr'
-  - '&kpr'
-  - '&kpr'
-  - '&kpr'
-  - '&kpr'
-  - '&kpr'
-  - '&kpr'
-  - '&kpr'
-  - '&kpr'
-  - '&kpr'
-  - {t: '&kpr', type: held}
-  - '&kpr'
-  - '&kpr'
-  - '&kpr'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   SNIPE:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
