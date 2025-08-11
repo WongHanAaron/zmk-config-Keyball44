@@ -42,7 +42,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: SYM}
   - {t: '$$mdi:keyboard-space$$', h: NUM}
   - {t: '$$mdi:keyboard-tab$$', h: SCROLL}
-  - {t: '$$mdi:backspace$$', h: SNIPE}
+  - {t: '$$mdi:keyboard-space$$', h: SNIPE}
   - {t: '$$mdi:keyboard-return$$', h: MOUSE2}
   - $$mdi:backspace-reverse-outline$$
   NUM:
@@ -219,11 +219,11 @@ layers:
   - '&kpr RIGHT_SHIFT'
   - '&kpr LGUI'
   - '&kpr LALT'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '&lj 5'
-  - '&lj 6'
-  - '&kpr ENTER'
+  - '&ltr 2 SPACE'
+  - '&ltr 1 SPACE'
+  - '&ltr 5 TAB'
+  - '&ltr 6 SPACE'
+  - '&ltr 7 ENTER'
   - '&kpr DELETE'
   SCROLL:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -354,9 +354,9 @@ layers:
   - '&kpr RIGHT_SHIFT'
   - '&kpr LGUI'
   - '&kpr LALT'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '&lj 5'
-  - '&lj 6'
-  - {t: '&kpr ENTER', type: held}
+  - '&ltr 2 SPACE'
+  - '&ltr 1 SPACE'
+  - '&ltr 5 TAB'
+  - '&ltr 6 SPACE'
+  - {t: '&ltr 7 ENTER', type: held}
   - '&kpr DELETE'
