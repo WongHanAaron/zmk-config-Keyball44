@@ -75,11 +75,10 @@
             compatible = "zmk,behavior-macro-two-param";
             #binding-cells = <2>;
             bindings = <&to 0>,
+			           <&macro_wait_time 50>,
 					   <&macro_param_1to1>, 
 					   <&macro_param_2to2>,
-                       <&lt MACRO_PLACEHOLDER MACRO_PLACEHOLDER>,
-                       <&macro_pause_for_release>,
-					   <&to 0>;
+                       <&lt MACRO_PLACEHOLDER MACRO_PLACEHOLDER>;
         };
 };
 
