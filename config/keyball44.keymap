@@ -157,10 +157,10 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&kpr ESCAPE      &kpr Q     &kpr W         &kpr E        &kpr R      &kpr T                 &kpr Y            &kpr U  	  &kpr I      &kpr O      &kpr P      &kpr BACKSPACE
-&kpr LEFT_SHIFT  &kpr A     &kpr S         &kpr D        &kpr F      &kpr G                 &kpr H            &mkpm LCLK  &mkpm MCLK  &mkpm RCLK  &to 0       &kpr SQT
-&kpr LCTRL       &kpr Z     &kpr X         &kpr C        &kpr V      &kpr B                 &kpr N            &kpr M      &kpr COMMA  &kpr DOT    &kpr SLASH  &kpr RIGHT_SHIFT
-&kpr LGUI        &kpr LALT  			   &ltr 2 SPACE  &trans      &trans      		    &trans      &kpr ENTER 			                                      &kpr DELETE
+&kpr ESCAPE      &kpr Q     &kpr W         &kpr E        &kpr R        &kpr T                 &kpr Y            &kpr U  	  &kpr I      &kpr O      &kpr P      &kpr BACKSPACE
+&kpr LEFT_SHIFT  &kpr A     &kpr S         &kpr D        &kpr F        &kpr G                 &kpr H            &mkpm LCLK    &mkpm MCLK  &mkpm RCLK  &to 0       &kpr SQT
+&kpr LCTRL       &kpr Z     &kpr X         &kpr C        &kpr V        &kpr B                 &kpr N            &kpr M        &kpr COMMA  &kpr DOT    &kpr SLASH  &kpr RIGHT_SHIFT
+&kpr LGUI        &kpr LALT  			   &ltr 2 SPACE  &ltr 1 SPACE  &ltr 5 TAB             &ltr 6 SPACE      &ltr 7 ENTER  			                          &kpr DELETE
             >;
         };
 
@@ -187,10 +187,10 @@
         mouse2_layer {
             label = "MOUSE2";
             bindings = <
-&kpr ESCAPE      &kpr Q     &kpr W         &kpr E        &kpr R      &kpr T                 &kpr Y            &kpr U  	  &kpr I      &kpr O      &kpr P      &kpr BACKSPACE
-&kpr LEFT_SHIFT  &kpr A     &kpr S         &kpr D        &kpr F      &kpr G                 &kpr H            &mkpm LCLK  &mkpm MCLK  &mkpm RCLK  &to 0       &kpr SQT
-&kpr LCTRL       &kpr Z     &kpr X         &kpr C        &kpr V      &kpr B                 &kpr N            &kpr M      &kpr COMMA  &kpr DOT    &kpr SLASH  &kpr RIGHT_SHIFT
-&kpr LGUI        &kpr LALT  			   &ltr 2 SPACE  &trans      &trans      		    &trans      &kpr ENTER 			                                      &kpr DELETE
+&kpr ESCAPE      &kpr Q     &kpr W         &kpr E        &kpr R        &kpr T                 &kpr Y            &kpr U  	  &kpr I      &kpr O      &kpr P      &kpr BACKSPACE
+&kpr LEFT_SHIFT  &kpr A     &kpr S         &kpr D        &kpr F        &kpr G                 &kpr H            &mkpm LCLK    &mkpm MCLK  &mkpm RCLK  &to 0       &kpr SQT
+&kpr LCTRL       &kpr Z     &kpr X         &kpr C        &kpr V        &kpr B                 &kpr N            &kpr M        &kpr COMMA  &kpr DOT    &kpr SLASH  &kpr RIGHT_SHIFT
+&kpr LGUI        &kpr LALT  			   &ltr 2 SPACE  &ltr 1 SPACE  &ltr 5 TAB             &ltr 6 SPACE      &ltr 7 ENTER  			                          &kpr DELETE
             >;
         };
     };
