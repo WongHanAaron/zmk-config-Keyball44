@@ -219,11 +219,11 @@ layers:
   - '&kpr RIGHT_SHIFT'
   - '&kpr LGUI'
   - '&kpr LALT'
+  - '&ltr 2 SPACE'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '&lj 7'
+  - '&kpr ENTER'
   - '&kpr DELETE'
   SCROLL:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -354,9 +354,9 @@ layers:
   - '&kpr RIGHT_SHIFT'
   - '&kpr LGUI'
   - '&kpr LALT'
+  - '&ltr 2 SPACE'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '&lj 7', type: held}
+  - {t: '&kpr ENTER', type: held}
   - '&kpr DELETE'
