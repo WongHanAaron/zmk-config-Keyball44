@@ -79,8 +79,13 @@
 			           <&macro_wait_time 50>,
 					   <&macro_param_1to1>, 
 					   <&macro_param_2to2>,
-                       <&lt MACRO_PLACEHOLDER MACRO_PLACEHOLDER>;
-        };
+                       <&macro_press &lt MACRO_PLACEHOLDER MACRO_PLACEHOLDER>,
+					   <&macro_pause_for_release>,
+					   <&macro_param_1to1>, 
+					   <&macro_param_2to2>,
+                       <&macro_release &lt MACRO_PLACEHOLDER MACRO_PLACEHOLDER>,
+					   <&to 0>;
+	};
 };
 
 / {
@@ -155,7 +160,7 @@
 &kpr ESCAPE      &kpr Q     &kpr W         &kpr E        &kpr R      &kpr T                 &kpr Y            &kpr U  	  &kpr I      &kpr O      &kpr P      &kpr BACKSPACE
 &kpr LEFT_SHIFT  &kpr A     &kpr S         &kpr D        &kpr F      &kpr G                 &kpr H            &mkpm LCLK  &mkpm MCLK  &mkpm RCLK  &to 0       &kpr SQT
 &kpr LCTRL       &kpr Z     &kpr X         &kpr C        &kpr V      &kpr B                 &kpr N            &kpr M      &kpr COMMA  &kpr DOT    &kpr SLASH  &kpr RIGHT_SHIFT
-&kpr LGUI        &kpr LALT  			   &trans        &trans      &trans      		    &trans      &lj 7 			                                      &kpr DELETE
+&kpr LGUI        &kpr LALT  			   &ltr 2 SPACE  &trans      &trans      		    &trans      &kpr ENTER 			                                      &kpr DELETE
             >;
         };
 
@@ -185,7 +190,7 @@
 &kpr ESCAPE      &kpr Q     &kpr W         &kpr E        &kpr R      &kpr T                 &kpr Y            &kpr U  	  &kpr I      &kpr O      &kpr P      &kpr BACKSPACE
 &kpr LEFT_SHIFT  &kpr A     &kpr S         &kpr D        &kpr F      &kpr G                 &kpr H            &mkpm LCLK  &mkpm MCLK  &mkpm RCLK  &to 0       &kpr SQT
 &kpr LCTRL       &kpr Z     &kpr X         &kpr C        &kpr V      &kpr B                 &kpr N            &kpr M      &kpr COMMA  &kpr DOT    &kpr SLASH  &kpr RIGHT_SHIFT
-&kpr LGUI        &kpr LALT  			   &trans        &trans      &trans      		    &trans      &lj 7 			                                      &kpr DELETE
+&kpr LGUI        &kpr LALT  			   &ltr 2 SPACE  &trans      &trans      		    &trans      &kpr ENTER 			                                      &kpr DELETE
             >;
         };
     };
