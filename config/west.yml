@@ -4,7 +4,12 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: kumamuk-git
       url-base: https://github.com/kumamuk-git
+    - name: nuovotaka
+      url-base: https://github.com/nuovotaka
   projects:
+    - name: zmk-pointing-acceleration-alpha
+      remote: nuovotaka
+      revision: main
     - name: zmk
       remote: zmkfirmware
       revision: main
