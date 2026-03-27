@@ -43,8 +43,8 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: NUM}
   - {t: '$$mdi:keyboard-tab$$', h: SCROLL}
   - {t: '$$mdi:keyboard-space$$', h: SNIPE}
-  - {t: '$$mdi:keyboard-return$$', h: MOUSE2}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: FUN}
+  - {t: '$$mdi:keyboard-return$$', h: FUN}
+  - $$mdi:backspace-reverse-outline$$
   NUM:
   - {t: '$$mdi:transfer$$', type: trans}
   - '1'
@@ -178,8 +178,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - FUN
-  - {type: held}
+  - {t: FUN, type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   MOUSE:
   - '&kpr ESCAPE'
   - '&kpr Q'
@@ -358,5 +358,5 @@ layers:
   - '&ltr 1 SPACE'
   - '&ltr 5 TAB'
   - '&ltr 6 SPACE'
-  - {t: '&ltr 7 ENTER', type: held}
+  - '&ltr 7 ENTER'
   - '&kpr DELETE'
